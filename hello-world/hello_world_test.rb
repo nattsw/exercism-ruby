@@ -20,7 +20,6 @@ class HelloWorldTest < Minitest::Test
   end
 
   def test_sample_name
-    skip
     assert_equal 'Hello, Alice!', HelloWorld.hello('Alice'), <<-MSG
     When given "Alice" it should greet Alice!
     MSG
