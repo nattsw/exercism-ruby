@@ -8,21 +8,7 @@ class Complement
   end
 
   def self.of_rna(strand)
-    nucleotide = ''
-    strand.each_char do |char|
-      case char
-      when 'G'
-        nucleotide += 'C'
-      when 'C'
-        nucleotide += 'G'
-      when 'A'
-        nucleotide += 'T'
-      when 'U'
-        nucleotide += 'A'
-      else
-        raise ArgumentError          
-      end
-    end
-    return nucleotide
+    raise ArgumentError unless strand.chars.all? { |c| RNA.include?(c) }
+    strand.tr(RNA,DNA)
   end
 end
