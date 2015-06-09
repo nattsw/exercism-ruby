@@ -24,10 +24,10 @@ class Complement
         nucleotide += 'C'
       when 'C'
         nucleotide += 'G'
-      when 'T'
-        nucleotide += 'A'
       when 'A'
-        nucleotide += 'U'
+        nucleotide += 'T'
+      when 'U'
+        nucleotide += 'A'
       end
     end
     return nucleotide
