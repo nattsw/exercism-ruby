@@ -6,7 +6,7 @@ class Raindrops
     SPEAK.keys.each do |i|
       rainspeak << SPEAK[i] if input.modulo(i).zero? 
     end
-
-    return rainspeak.empty? ? input.to_s : rainspeak
+    
+    rainspeak.empty? ? input.to_s : rainspeak
   end
 end
