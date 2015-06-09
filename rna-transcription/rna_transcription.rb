@@ -11,6 +11,8 @@ class Complement
         complement += 'A'
       when 'A'
         complement += 'U'
+      else
+        raise ArgumentError
       end
     end
     return complement
@@ -28,6 +30,8 @@ class Complement
         nucleotide += 'T'
       when 'U'
         nucleotide += 'A'
+      else
+        raise ArgumentError          
       end
     end
     return nucleotide
