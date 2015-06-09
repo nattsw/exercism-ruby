@@ -1,21 +1,10 @@
 class Complement
+  DNA = "GCTA"
+  RNA = "CGAU"
+
   def self.of_dna(strand)
-    complement = ''
-    strand.each_char do |char|
-      case char
-      when 'G'
-        complement += 'C'
-      when 'C'
-        complement += 'G'
-      when 'T'
-        complement += 'A'
-      when 'A'
-        complement += 'U'
-      else
-        raise ArgumentError
-      end
-    end
-    return complement
+    raise ArgumentError unless strand.chars.all? { |c| DNA.include?(c) }
+    strand.tr(DNA,RNA)
   end
 
   def self.of_rna(strand)
