@@ -1,3 +1,7 @@
+What I learnt:
+
+1. String.tr(A,B) replaces all instances of characters in A to B
+
 # Rna Transcription
 
 Write a program that, given a DNA strand, returns its RNA complement (per RNA transcription).

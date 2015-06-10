@@ -1,3 +1,7 @@
+What I learnt:
+
+1. The .map function is better at traversing enumerations.
+
 # Roman Numerals
 
 Write a function to convert from normal numbers to Roman Numerals: e.g.

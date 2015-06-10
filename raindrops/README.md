@@ -1,3 +1,7 @@
+What I learnt:
+
+1. Hashes
+
 # Raindrops
 
 Write a program that converts a number to a string, the contents of which depends on the number's prime factors.

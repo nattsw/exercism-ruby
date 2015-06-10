@@ -1,3 +1,9 @@
+What I learnt:
+
+1. Anything below the 'private' keyword is private
+2. Raising ArgumentError
+3. Proper naming of methods
+
 # Hamming
 
 Write a program that can calculate the Hamming difference between two DNA strands.

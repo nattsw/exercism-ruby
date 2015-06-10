@@ -1,3 +1,11 @@
+What I learnt:
+
+1. Instance variable
+	@value
+2. Integer.upto(value) is a better way to count
+3. There's no need for the 'return' keyword
+
+
 # Difference Of Squares
 
 Find the difference between the sum of the squares and the square of the sums of the first N natural numbers.
