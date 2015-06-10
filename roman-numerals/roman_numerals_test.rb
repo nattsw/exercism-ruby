@@ -25,6 +25,7 @@ class RomanTest < Minitest::Test
   end
 
   def test_6
+    skip
     assert_equal 'VI', 6.to_roman
   end
 
@@ -43,7 +44,6 @@ class RomanTest < Minitest::Test
   end
 
   def test_59
-    skip
     assert_equal 'LIX', 59.to_roman
   end
 
@@ -63,7 +63,6 @@ class RomanTest < Minitest::Test
   end
 
   def test_402
-    skip
     assert_equal 'CDII', 402.to_roman
   end
 
