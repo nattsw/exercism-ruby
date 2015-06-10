@@ -1,0 +1,20 @@
+Hamming
+- x.upto(y)
+- name of helper function
+- 'reduce' (FP) / 'inject' (ruby) 
+- private-ise methods if not needed in public
+
+
+Gigasecond
+- input validation
+
+
+Complement
+- make code friendlier for lowercases
+- refactor
+
+
+Raindrops
+- predicate methods end with '?'
+- method name is misleading
+- can use 'reduce' too (& 'filter')
