@@ -25,7 +25,6 @@ class RomanTest < Minitest::Test
   end
 
   def test_6
-    skip
     assert_equal 'VI', 6.to_roman
   end
 
@@ -34,12 +33,10 @@ class RomanTest < Minitest::Test
   end
 
   def test_27
-    skip
     assert_equal 'XXVII', 27.to_roman
   end
 
   def test_48
-    skip
     assert_equal 'XLVIII', 48.to_roman
   end
 
@@ -48,17 +45,14 @@ class RomanTest < Minitest::Test
   end
 
   def test_93
-    skip
     assert_equal 'XCIII', 93.to_roman
   end
 
   def test_141
-    skip
     assert_equal 'CXLI', 141.to_roman
   end
 
   def test_163
-    skip
     assert_equal 'CLXIII', 163.to_roman
   end
 
@@ -67,22 +61,18 @@ class RomanTest < Minitest::Test
   end
 
   def test_575
-    skip
     assert_equal 'DLXXV', 575.to_roman
   end
 
   def test_911
-    skip
     assert_equal 'CMXI', 911.to_roman
   end
 
   def test_1024
-    skip
     assert_equal 'MXXIV', 1024.to_roman
   end
 
   def test_3000
-    skip
     assert_equal 'MMM', 3000.to_roman
   end
 end
