@@ -12,6 +12,12 @@ class Squares
   end
 
   def sum_of_squares
+    sum = 0
+    1.upto(@value) do |i|
+      puts i**2
+      sum = sum + (i**2)
+    end
+    sum
   end
 
   def difference
