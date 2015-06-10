@@ -21,8 +21,10 @@ class Integer
         break
       else
         Hash[ROMAN.to_a.reverse].map do |ri, rs|
-          if i == ri || i-ri==ri
+          if i == ri
             break
+          elsif ri == 5 || ri == 50 || ri == 500
+            next
           elsif value - (i-ri) >= 0
             roman << rs << s
             value -= i-ri
