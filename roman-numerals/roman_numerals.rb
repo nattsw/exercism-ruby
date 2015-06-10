@@ -18,6 +18,10 @@ class Integer
         roman << ROMAN[i]
         value -= i
         break
+      elsif value - (i-1) >= 0
+        roman << "I" + ROMAN[i]
+        value -= (i-1)
+        break
       end
     end
     return roman, value
